@@ -1,0 +1,21 @@
+body {
+    padding-top: 56px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 197px;
+}
+.btn{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: -5px;
+}
+#defaultCheck1{
+	height: 16px;
+	width: 16px;
+}
+.ip_none, .port_none,.scan_in_progress{
+  color: red;
+}

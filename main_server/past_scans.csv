@@ -1,0 +1,15 @@
+Type, Input, Status, Result
+IPSubnetAliveScan,162.158.62.60/29,Success,"{'162.158.62.57': 'Alive', '162.158.62.58': 'Alive', '162.158.62.59': 'Alive', '162.158.62.60': 'Alive', '162.158.62.61': 'Alive', '162.158.62.62': 'Alive'}"
+IPSubnetAliveScan,162.158.62.60/30,Success,"{'162.158.62.61': 'Alive', '162.158.62.62': 'Alive'}"
+IPAliveScan,162.158.62.60/30,Success,{'162.158.62.60/30': 'Alive'}
+IPAliveScan,162.158.62.60,Success,{'162.158.62.60': 'Alive'}
+FinPortScan,8.8.8.8::87-90,Failed,"{'87': 'Open | Filtered', '88': 'Open | Filtered', '89': 'Not Scanned', '90': 'Not Scanned'}"
+StealthPortScan,8.8.8.8::20-25,Failed,"{'20': 'Filtered', '21': 'Filtered', '22': 'Filtered', '23': 'Not Scanned', '24': 'Not Scanned', '25': 'Not Scanned'}"
+NormalPortScan,8.8.8.8::20-25,Failed,"{'20': 'Closed', '21': 'Closed', '22': 'Closed', '23': 'Not Scanned', '24': 'Not Scanned', '25': 'Not Scanned'}"
+IPSubnetAliveScan,8.8.8.8/29,Failed,"{'8.8.8.9': 'Not Alive', '8.8.8.10': 'Not Alive', '8.8.8.11': 'Not Alive', '8.8.8.12': 'Not Scanned', '8.8.8.13': 'Not Scanned', '8.8.8.14': 'Not Scanned'}"
+IPSubnetAliveScan,8.8.8.8/29,Failed,"{'8.8.8.9': 'Not Alive', '8.8.8.10': 'Not Alive', '8.8.8.11': 'Not Alive', '8.8.8.12': 'Not Scanned', '8.8.8.13': 'Not Scanned', '8.8.8.14': 'Not Scanned'}"
+FinPortScan,45.33.32.156::80-83,Success,"{'80': 'Open | Filtered', '81': 'Open | Filtered', '82': 'Open | Filtered', '83': 'Open | Filtered'}"
+NormalPortScan,45.33.32.156::80-83,Success,"{'80': 'HTTP/1.1 200 OK\r\nDate: Mon, 06 May 2019 01:24:36 GMT\r\nServer: Apache/2.4.7 (Ubuntu)\r\nAccept-Ranges: bytes\r\nVary: Accept-Encoding\r\nConnection: close\r\nContent-Type: text/html\r\n\r\n&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;&gt;\n&lt;HTML&gt;\n&lt;HEAD&gt;\n&lt;title&gt;Go ahead and ScanMe!&lt;/title&gt;\n\n&lt;link REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/shared/images/tiny-eyeicon.png&quot; TYPE=&quot;image/png&quot;&gt;\n&lt;META NAME=&quot;ROBOTS&quot; CONTENT=&quot;NOARCHIVE&quot;&gt;\n&lt;link rel=&quot;stylesheet&quot; href=&quot;/shared/css/insecdb.css&quot; type=&quot;text/css&quot;&gt;\n&lt;!--Google Analytics Code--&gt;\n&lt;script type=&quot;text/javascript&quot;&gt;\n  (function(i,s,o,g,r,a,m){i[&#x27;GoogleAnalyticsObject&#x27;]=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,&#x27;script&#x27;,&#x27;//www.google-analytics.com/analytics.js&#x27;,&#x27;ga&#x27;);\n\n  ga(&#x27;create&#x27;, &#x27;UA-11009417-1&#x27;, &#x27;auto&#x27;);\n  ga(&#x27;send&#x27;, &#x27;pageview&#x27;);\n\n&lt;/script&gt;\n&lt;!--END Google Analytics Code--&gt;\n\n&lt;!--Google Custom Site Search boilerplate Ja', '81': 'Closed', '82': 'Closed', '83': 'Closed'}"
+StealthPortScan,45.33.32.156::80-83,Success,"{'80': 'Open', '81': 'Closed', '82': 'Closed', '83': 'Closed'}"
+NormalPortScan,45.33.32.156::50456-50459,Success,"{'50456': 'Closed', '50457': 'Closed', '50458': 'Closed', '50459': 'Closed'}"
+NormalPortScan,45.33.32.156::50456-50451,Failed,{}
